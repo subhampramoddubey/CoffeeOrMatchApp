@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0055FF"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/CoffeeCenter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="#FFC800"
+        android:text="Coffee"
+        android:layout_margin="11dp"
+        android:textAlignment="center"
+        android:textColor="#6f4e37"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#3A2316"/>
+    <Button
+        android:id="@+id/Match"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="#348989"
+        android:text="Match"
+        android:layout_margin="11dp"
+        android:textAlignment="center"
+        android:textColor="#321554"
+        android:textSize="51sp"
+        android:textStyle="bold" />
+</LinearLayout>

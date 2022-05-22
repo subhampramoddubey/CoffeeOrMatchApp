@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Match">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:text="TEAM A"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textSize="51dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/teamRedPoints"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="50dp"
+                android:gravity="center"
+                android:textColor="#FF0000"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="55dp" />
+
+            <Button
+                android:id="@+id/twoPointRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="11dp"
+                android:backgroundTint="#FF0000"
+                android:text="2 POINTER" />
+
+            <Button
+                android:id="@+id/threePointRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 POINTER"
+                android:backgroundTint="#FF0000"
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="35dp"/>
+
+            <Button
+                android:id="@+id/freeHandPointRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FREE HAND"
+                android:layout_marginTop="11dp"
+                android:backgroundTint="#FF0000"
+                android:layout_marginLeft="35dp"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="500dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:text="TEAM B"
+                android:textAlignment="center"
+                android:textColor="#0040FF"
+                android:textSize="51dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/teamBluePoints"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="50dp"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="#0040FF"
+                android:textAlignment="center"
+                android:textSize="55dp" />
+
+            <Button
+                android:id="@+id/twoPointBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 POINTER"
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="35dp"/>
+
+            <Button
+                android:id="@+id/threePointBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 POINTER"
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="35dp"/>
+
+            <Button
+                android:id="@+id/freeHandPointBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FREE HAND"
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="35dp"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/black"
+        />
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:layout_marginTop="90dp"
+        android:backgroundTint="#FFE600"
+        android:textColor="@color/black"
+        android:layout_marginLeft="145dp"
+        />
+</LinearLayout>
